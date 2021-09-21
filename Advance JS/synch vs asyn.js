@@ -1,6 +1,6 @@
 console.log("Before");
 const user = getUSer(1);
-conosle.log(user)
+console.log(user)
 console.log('After')
 function getUSer(id) {
 	setTimeout(()=>{
