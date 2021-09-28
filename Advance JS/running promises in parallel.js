@@ -24,3 +24,8 @@ Promise.all([p1,p2,p3]).then(result=>console.log(result))
 .catch(err=>console.log(err.message))
 
 
+//Error will not come if we use race
+//Promise.race([p1,p2,p3]).then(result=>console.log(result))
+//.catch(err=>console.log(err.message))
+
+
